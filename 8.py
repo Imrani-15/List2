@@ -4,7 +4,7 @@ list = [1,23,25,10]
 print("print the list before operation:")
 print(list)
 list.sort()
-print("print the smallest number in a list:", *list[:1])
+print("print the smallest number in a list:", *list[:1])  # list[0]
 
 
 # Method 2 using min() method write a program to find smallest number in a list
